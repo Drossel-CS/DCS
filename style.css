@@ -1042,6 +1042,13 @@ nav{
 	border-bottom: 1px solid #43e8e4;
 }
 
+.content-area, .site-content{
+	padding: 0;
+	margin: 0;
+}
+
+
+
 
 
 /* FOOTER */
