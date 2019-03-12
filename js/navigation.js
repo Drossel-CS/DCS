@@ -6,8 +6,8 @@
  */
 ( function() {
 	var container, button, menu, links, i, len;
-
 	var nav1 = document.getElementsByClassName('front-nav');
+	//getElementsByClass return array
 	var nav = nav1[0];
 
 	if(typeof nav !== "undefined"){
@@ -21,7 +21,6 @@
 			}
 		}
 	}
-    
 	container = document.getElementById( 'site-navigation' );
 	if ( ! container ) {
 		return;
