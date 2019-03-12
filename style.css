@@ -1041,6 +1041,13 @@ nav{
 .menu-primary-menu-container ul li a:hover{
 	border-bottom: 1px solid #43e8e4;
 }
+.current-menu-item, .current_page_item{
+	font-weight: 500;
+}
+
+
+
+
 
 
 .instagram-container{
