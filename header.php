@@ -24,7 +24,7 @@
 <div id="page" class="site">
 	<a class="skip-link screen-reader-text" href="#content"><?php esc_html_e( 'Skip to content', 'dcs' ); ?></a>
 
-	<header id="masthead" class="site-header">
+	<header id="masthead" class="site-header <?php if (is_front_page()) echo 'front-nav'; ?>">
 		<div class="wrapp header-container">
 			<div class="logo-container">
 				<div class="logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></div>
