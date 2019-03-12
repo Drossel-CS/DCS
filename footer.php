@@ -12,7 +12,7 @@
 ?>
 
 	</div><!-- #content -->
-	<div class="newsletter-container wrapp">
+	<div class="newsletter-container">
 		<div class="heading-center wrapp">newsletter</div>
 		SEM IDE KURWA DOBRY NEWSLETTER
 	</div>
