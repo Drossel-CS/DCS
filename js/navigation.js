@@ -7,6 +7,17 @@
 ( function() {
 	var container, button, menu, links, i, len;
 
+	var nav = document.getElementById('masthead');
+    window.onscroll = function(){
+        if (window.pageYOffset >100){
+            nav.style.background = "#2b2b2b";
+            nav.style.transition = ".5s";
+        }
+        else {
+            nav.style.background = "transparent";
+        }
+    }
+
 	container = document.getElementById( 'site-navigation' );
 	if ( ! container ) {
 		return;
