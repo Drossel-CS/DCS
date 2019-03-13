@@ -43,5 +43,9 @@
 			</nav><!-- #site-navigation -->
 		</div>
 	</header><!-- #masthead -->
-	<div class="hero-banner wrapper"></div>
+	<?php
+		if (is_front_page()) :
+			echo '<div class="hero-banner wrapper"></div>';
+		endif;
+	?>
 	<div id="content" class="site-content">
