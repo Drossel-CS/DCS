@@ -994,7 +994,7 @@ header, main, footer{
 }
 
 .site-header{
-	background: #2b2b2b;
+	/* background: #2b2b2b; */
 	position: fixed;
 	z-index: 10000;
 	opacity: .95;
@@ -1041,9 +1041,8 @@ nav{
 .menu-primary-menu-container ul li a:hover{
 	border-bottom: 1px solid #43e8e4;
 }
-.current-menu-item, .current_page_item{
-	font-weight: 500;
-}
+
+
 
 
 /* HERO SLIDER */
@@ -1054,10 +1053,6 @@ nav{
 	background: #43e8e4;
 }
 
-
-/* .content-area{
-	margin-top: 80px;
-} */
 
 
 
@@ -1175,7 +1170,7 @@ nav{
 		padding: 15px 10px;
 	}
 	.widget_nav_menu ul li a:hover{
-		color: #434541;
+		color: #444;
 		margin: 0 auto;
 		background: #43e8e4;
 	}
