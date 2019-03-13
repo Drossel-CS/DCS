@@ -1046,6 +1046,18 @@ nav{
 }
 
 
+/* HERO SLIDER */
+.hero-banner{
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 94%);
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 94%);
+	height: 700px;
+	background: #43e8e4;
+}
+
+
+/* .content-area{
+	margin-top: 80px;
+} */
 
 
 

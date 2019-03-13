@@ -43,5 +43,5 @@
 			</nav><!-- #site-navigation -->
 		</div>
 	</header><!-- #masthead -->
-
+	<div class="hero-banner"></div>
 	<div id="content" class="site-content">
