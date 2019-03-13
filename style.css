@@ -1107,7 +1107,7 @@ nav{
 .menu-primary-menu-container ul{
 	list-style-type: none;
 	margin: 0;
-	padding:0;
+	padding-top: 3px;
 }
 .menu-primary-menu-container ul li{
 	display: inline-block;
