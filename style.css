@@ -994,7 +994,6 @@ header, main, footer{
 }
 
 .site-header{
-	background: #2b2b2b;
 	position: fixed;
 	z-index: 10000;
 	opacity: .95;
@@ -1002,6 +1001,10 @@ header, main, footer{
 	padding:0;
 	text-shadow: 0 0 3px #262627;
 }
+.nofront-nav{
+	background: #2b2b2b;
+}
+
 .header-container{
 	/* padding-top: 20px; */
 }
