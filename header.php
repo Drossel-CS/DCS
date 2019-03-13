@@ -32,8 +32,16 @@
 			<div class="logo-container">
 				<div class="logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></div>
 			</div>
+
+			<div class="site-header-burger">
+                <button class="hamburger hamburger--spin menu-toggle" type="button">
+                    <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+ 			</div>
+
 			<nav id="site-navigation">
-				<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php esc_html_e( 'Primary Menu', 'dcs' ); ?></button>
 				<?php
 				wp_nav_menu( array(
 					'theme_location' => 'menu-1',

@@ -164,6 +164,7 @@ add_action( 'widgets_init', 'dcs_widgets_init' );
  */
 function dcs_scripts() {
 	wp_enqueue_style( 'dcs-style', get_stylesheet_uri() );
+	wp_enqueue_style( 'hamburgers', get_stylesheet_directory_uri() . '/css/hamburgers.css' );
 	
 	wp_enqueue_script('jquery');
     if (!is_admin()) {
