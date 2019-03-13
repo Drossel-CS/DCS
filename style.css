@@ -26,6 +26,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 # Typography
 # Elements
 # Forms
+	## Contact Form
 # Navigation
 	## Links
 	## Menus
@@ -604,6 +605,85 @@ select {
 }
 
 textarea {
+	width: 100%;
+}
+
+/*--------------------------------------------------------------
+## Contact form
+--------------------------------------------------------------*/
+#drosselContactForm:focus {
+	outline:0;
+}
+
+.form-control-msg, .form-control-invalid-email {
+	display: none;
+}
+/* has-error je class, ktory sa priradi small elementu z contact-form.js aby bol zobrazeny error  */
+.has-error > .form-control {
+	border: 1px solid #B438A2 !important;
+}
+/* js-show-feedback je class, ktory sa prida small elementu z contact-form.js aby bol zobrazeny feedback */
+.js-show-feedback {
+	display: block;
+}
+
+.form-btn:disabled,
+button[disabled]{
+  border: none;
+  background-color:rgb(244, 244, 244);
+  color: #666666;
+  /* font-size: 1em; */
+}
+
+.site-contact-left{
+	float: left;
+	width: 50%;
+	padding: 10px;
+}
+
+.site-contact-right{
+	clear: both;
+	padding: 0 10px;
+}
+	.site-contact-right p{
+		color: #817F7F;
+		font-family: 'Montserrat';
+	}
+	.mini{
+		font-size: 0.4em;
+		margin-top: 10px;
+	}
+
+input[ type="text"], textarea {
+	width: 100%;
+	border-radius: 10px;
+	padding: 15px 20px;
+	margin-bottom: 20px;
+	font-family: 'Montserrat';
+}
+input[ type="checkbox"]{
+	width: 20px;
+	
+}
+.textarea{
+	height: 208px;
+}
+
+
+.site-button{
+	padding: 5px;
+}
+form button{
+	font-family: 'Montserrat';
+	text-transform: uppercase;
+	margin-top: 10px; 
+	cursor: pointer;
+	letter-spacing: 10px;
+	background: #B438A2;
+	color: #fff;
+	padding: 20px;
+	border-radius: 10px;
+	border: none;
 	width: 100%;
 }
 
