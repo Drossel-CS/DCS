@@ -29,9 +29,17 @@
 	
 	<header id="masthead" class="site-header <?php if (is_front_page()) {echo 'front-nav';}else{echo 'nofront-nav';} ?>">
 		<div class="wrapp header-container">
+			<div class="shopping-bag"></div>
 			<div class="logo-container">
 				<div class="logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></div>
 			</div>
+			<div class="site-header-burger">
+                <button class="hamburger hamburger--spin menu-toggle" type="button">
+                    <span class="hamburger-box">
+                    <span class="hamburger-inner"></span>
+                    </span>
+                </button>
+ 			</div>
 			<nav id="site-navigation">
 				<?php
 				wp_nav_menu( array(
@@ -40,13 +48,6 @@
 				) );
 				?>
 			</nav><!-- #site-navigation -->
-			<div class="site-header-burger">
-                <button class="hamburger hamburger--spin menu-toggle" type="button">
-                    <span class="hamburger-box">
-                    <span class="hamburger-inner"></span>
-                    </span>
-                </button>
- 			</div>
 		</div>
 	</header><!-- #masthead -->
 	<?php
