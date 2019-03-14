@@ -714,21 +714,6 @@ a:hover, a:active {
 }
 
 
-/* Small menu. */
-.menu-toggle,
-.main-navigation.toggled ul {
-	display: block;
-}
-
-@media screen and (min-width: 37.5em) {
-	.menu-toggle {
-		display: none;
-	}
-	.main-navigation ul {
-		display: block;
-	}
-}
-
 .site-main .comment-navigation, .site-main
 .posts-navigation, .site-main
 .post-navigation {
@@ -846,17 +831,6 @@ a:hover, a:active {
 	clear: both;
 }
 
-/*--------------------------------------------------------------
-# Widgets
---------------------------------------------------------------*/
-.widget {
-	margin: 0 0 1.5em;
-	/* Make sure select elements fit in widgets. */
-}
-
-.widget select {
-	max-width: 100%;
-}
 
 /*--------------------------------------------------------------
 # Content
@@ -1012,6 +986,7 @@ object {
 
 
 /* DCS definition theme */
+
 body{
 	font-family: 'Montserrat', sans-serif;
 	color: #444;
@@ -1243,22 +1218,24 @@ nav{
 }
 @media only screen and (max-width: 767px){
 	.wrapp{
-		width: 90%;
+		width: 93%;
 	}
 	/* Menu definition */
-	.logo-container{
-		float: none;
+
+	.logo a{
 		width: 100%;
 		text-align: center;
 		margin: 0 auto;
-		position: relative;
+		position: absolute;
 	}
-	.shopping-bag, .site-header-burger{
+	.site-header-burger{
 		float: left;
 		position: absolute;
+		top: 0;
 		right: 0;
 		padding-top: 5px;
 		display: block;
+
 	}
 	nav{
 		float: none;
