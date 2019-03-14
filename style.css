@@ -1085,9 +1085,6 @@ header, main, footer{
 	background: #2b2b2b;
 }
 
-.header-container{
-	/* padding-top: 20px; */
-}
 .logo{
 	float: left;
 	padding: 15px 0;
@@ -1103,6 +1100,8 @@ header, main, footer{
 /* NAVIGATION */
 nav{
 	float: right;
+	margin:0;
+	padding: 0;
 }
 .menu-primary-menu-container ul{
 	list-style-type: none;
@@ -1136,8 +1135,13 @@ nav{
 	background: #43e8e4;
 }
 
+.site-content{
+	padding-top: 60px;
+}
 
 
+
+/* CONTECT FORM */
 
 
 .instagram-container{
