@@ -620,7 +620,7 @@ textarea {
 }
 /* has-error je class, ktory sa priradi small elementu z contact-form.js aby bol zobrazeny error  */
 .has-error > .form-control {
-	border: 1px solid #B438A2 !important;
+	border: 2px solid #43e8e4 !important;
 }
 /* js-show-feedback je class, ktory sa prida small elementu z contact-form.js aby bol zobrazeny feedback */
 .js-show-feedback {
@@ -631,7 +631,7 @@ textarea {
 button[disabled]{
   border: none;
   background-color:rgb(244, 244, 244);
-  color: #666666;
+  color: #666;
   /* font-size: 1em; */
 }
 
@@ -647,6 +647,7 @@ button[disabled]{
 }
 	.site-contact-right p{
 		color: #817F7F;
+		font-size: .9em;
 		font-family: 'Montserrat';
 	}
 	.mini{
@@ -678,10 +679,12 @@ form button{
 	text-transform: uppercase;
 	margin-top: 10px; 
 	cursor: pointer;
-	letter-spacing: 10px;
-	background: #B438A2;
-	color: #fff;
+	/* letter-spacing: 5px; */
+	background: #43e8e4;
+	color: #444;
+	font-weight: 600;
 	padding: 20px;
+	font-size: .9em; 
 	border-radius: 10px;
 	border: none;
 	width: 100%;
@@ -1109,7 +1112,7 @@ nav{
 	-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 0 94%);
 	clip-path: polygon(0 0, 100% 0, 100% 100%, 0 94%);
 	height: 700px;
-	background: #43e8e4;
+	background: orange;
 }
 
 .site-content{
@@ -1124,7 +1127,15 @@ nav{
 .instagram-container{
 	padding: 20px 0;
 }
-
+.brands-container {
+	text-align: center;
+	padding: 0;
+	margin: 0;
+	}
+	.brands-container img {
+		width: 20%;
+		margin-right: 40px;
+		}
 
 /* FOOTER */
 .footer-menu-container{
@@ -1198,6 +1209,14 @@ nav{
 	font-weight: 500;
 	letter-spacing: 3px;
 }
+
+
+/* POST */
+.post{
+	float: left;
+	width: 33.3333%;
+}
+
 
 
 
@@ -1294,4 +1313,13 @@ nav{
 		font-size: 1.5em;
 		padding: 0 10px;
 	}
+
+/* CONTACT */
+.site-contact-left, .site-contact-right{
+	float: none;
+	width: 100%;
+}
+
+
+
 }

@@ -34,12 +34,12 @@
 				<div class="logo"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></div>
 			</div>
 			<div class="site-header-burger">
-                <button class="hamburger hamburger--spin menu-toggle" type="button">
-                    <span class="hamburger-box">
-                    <span class="hamburger-inner"></span>
-                    </span>
-                </button>
- 			</div>
+				<button class="hamburger hamburger--spin menu-toggle" type="button">
+					<span class="hamburger-box">
+						<span class="hamburger-inner"></span>
+					</span>
+				</button>
+			</div>
 			<nav id="site-navigation">
 				<?php
 				wp_nav_menu( array(
