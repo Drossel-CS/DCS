@@ -52,7 +52,7 @@
 	</header><!-- #masthead -->
 	<?php
 		if (is_front_page()) :
-			echo '<div class="hero-banner wrapper">'.do_shortcode('[slider id="371"]').'</div>';
+			echo '<div class="hero-banner wrapper">'.do_shortcode('[slider id="348"]').'</div>';
 		endif;
 	?>
 	<div id="content" class="site-content">

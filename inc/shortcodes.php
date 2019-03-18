@@ -55,7 +55,7 @@ function drossel_sliders($atts, $content = null)
     $i = get_post_meta($atts['id'], 'number_of_img', true);
 
     ?>
-    <div class="g_slide" id="slides-<?php echo $atts['id']; ?>">
+    <div class="g_slide" id="slides-<?php echo $atts['id']; ?>">   
         <div class="switch_main">
         <?php
         foreach ($meta_keys as $meta_key) {
@@ -66,8 +66,9 @@ function drossel_sliders($atts, $content = null)
                 <a class="item switch_item" href="<?php echo get_post_meta($atts['id'], $meta_key . '_link', true); ?>">
                     <img data-src="<?php echo wp_get_attachment_image_src(get_post_meta($atts['id'], $meta_key, true), 'full')[0]; ?>" />
                 </a>
-                <div id="caption-<?php echo $j; ?>" class="slider-caption"><p><?php echo get_post_meta($atts['id'], $meta_key . '_caption', true); ?></p></div>
-
+                <div class="wrapp">
+                    <div id="caption-<?php echo $j; ?>" class="slider-caption"><p><h1><?php echo get_post_meta($atts['id'], $meta_key . '_caption', true); ?></h1></p></div>
+                </div>
             <?php
             $j++;
         }
