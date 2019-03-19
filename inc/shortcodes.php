@@ -67,7 +67,7 @@ function drossel_sliders($atts, $content = null)
                     <img data-src="<?php echo wp_get_attachment_image_src(get_post_meta($atts['id'], $meta_key, true), 'full')[0]; ?>" />
                 </a>
                 <div class="wrapp">
-                    <div id="caption-<?php echo $j; ?>" class="slider-caption"><p><h1><?php echo get_post_meta($atts['id'], $meta_key . '_caption', true); ?></h1></p></div>
+                    <div id="caption-<?php echo $j; ?>" class="slider-caption wrapp"><p><h1><?php echo get_post_meta($atts['id'], $meta_key . '_caption', true); ?></h1></p></div>
                 </div>
             <?php
             $j++;
