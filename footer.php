@@ -16,12 +16,12 @@
 		<div class="heading-center wrapp">newsletter</div>
 		SEM IDE KURWA DOBRY NEWSLETTER
 	</div>
-	<div class="brand-container">
+	<!-- <div class="brand-container">
 		<div class="heading-center wrapp">spolupracujeme</div>
 		<div class="wrapp group">
 			<?php dynamic_sidebar( 'brands-1' ) ?>
 		</div>
-	</div>
+	</div> -->
 	<div class="instagram-container">
 		<div class="heading-center wrapp">zo zákulisia</div>
 			<div class="wrapper">
