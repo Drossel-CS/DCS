@@ -13,7 +13,7 @@
 	<header class="entry-header">
 	<?php
 		if ( ! is_front_page() ) :
-			the_title( '<h1 class="entry-title">', '</h1>' );		
+			the_title( '<h1 class="wrapp entry-title">', '</h1>' );		
 		endif;
 		?>
 	</header><!-- .entry-header -->
