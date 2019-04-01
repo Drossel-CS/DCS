@@ -3,7 +3,7 @@
 ?>
 
 <div class="lem"></div>
-<form id="drosselContactForm"  action="#" method="post" data-url="<?php echo admin_url('admin-ajax.php'); ?>">
+<form id="drosselContactForm"  action="#" method="post" data-url="<?php echo admin_url('admin-ajax.php'); ?>" class="wrapp">
 
 	<div class="site-contact-left">
         <div class="form-group">
