@@ -54,11 +54,13 @@ if ($(document).width() <= breakpoint){
   $(window).resize(function () {
     
     if ($(document).width() > breakpoint){
-      $("#primary-menu").css("display","block");
-      if (window.pageYOffset >100){
-        nav.style.background = "#2b2b2b";
-      }else{
-        nav.style.background = "transparent";
+      if(typeof nav !== "undefined"){
+        $("#primary-menu").css("display","block");
+        if (window.pageYOffset >100){
+          nav.style.background = "#2b2b2b";
+        }else{
+          nav.style.background = "transparent";
+        }
       }
 
       if(typeof nav !== "undefined"){
