@@ -1100,6 +1100,11 @@ nav{
 	padding: 10px;
 }
 
+.current-menu-item, .current-page-ancestor{
+	/* border-bottom: 1px solid #43e8e4; */
+	display: block;
+	background-image: linear-gradient(to right, #43e8e4, #00FFB1);
+}
 .menu-primary-menu-container ul li a:hover{
 	border-bottom: 1px solid #43e8e4;
 }
