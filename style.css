@@ -680,7 +680,7 @@ form button{
 	margin-top: 10px; 
 	cursor: pointer;
 	/* letter-spacing: 5px; */
-	background: #43e8e4;
+	background-image: linear-gradient(to right, #43e8e4, #00FFB1);
 	color: #444;
 	font-weight: 600;
 	padding: 20px;
@@ -1018,10 +1018,10 @@ body{
 	align-items: center;
 	padding: 20px 0;
 	text-transform: uppercase;
-	letter-spacing: 3px;
-	font-size: .7em;
-    color: #817F7F;
-    font-weight: 600;
+	/* letter-spacing: 3px; */
+	font-size: .8em;
+    color: #C7C7C7;
+    font-weight: 700;
 	font-family: 'Montserrat';
   }
 
@@ -1110,25 +1110,81 @@ nav{
 /* CONTENT */
 .dcs-title{
 	padding-top: 90px;
+	font-size: 3em;
+	font-weight: 800;
 }
-.site-content{
-	/* padding-top: 60px; */
-}
-.sc1{
+
+
+/* ----------------------------- */
+/* ---------- CONTENT ---------- */
+/* ----------------------------- */
+
+.dcs-sc{
 	width: 100%;
 	height: auto;
-	padding: 50px 0;
-	background: #f4f4f4;
-	-webkit-clip-path: polygon(0 6%, 100% 0, 100% 100%, 0 96%);
-	clip-path: polygon(0 6%, 100% 0, 100% 100%, 0 96%);
+	background: #fff;
+	padding: 100px 0;
 }
-.sc1title{
-	background: red;
+.dcs-sc img{
+	width: 80%;
 }
+	.sc1{
+			/* padding-top: 50px; */
+			background-image: url('../DCS/img/sc1bg.png'); 
+			background-position: left top;
+			background-repeat: no-repeat;
+	}
+	.sc2{
+			background-image: url('../DCS/img/sc2bg.png'); 
+			background-position: right top;
+			background-repeat: no-repeat;
+	}
+	.dcs-content-container-left{
+			float: left;
+			width: 50%;
+			padding: 20px;
+	}
+	.dcs-content-container-right{
+			float: right;
+			width: 50%;
+			padding: 20px;
+	}
+	.dcs-section-title h1{
+			font-size: 3em;
+			font-weight: 800;
+			padding: 0;
+			margin: 0;
+	}
+	.dcs-section-content{
+			line-height: 2.5;
+			text-indent: 30px;
+			padding: 10px 0;
+	}
+	.dcs-button{
+			background-image: linear-gradient(to right, #43e8e4, #00FFB1);
+			border: none;
+			border-radius: 0;
+			cursor: pointer
+	}
+	.dcs-button a{
+			text-decoration: none;
+			color: #444;
+			display: block;
+			text-transform: uppercase;
+			padding: 14px 50px;
+			letter-spacing: 3px;
+			font-weight: 600;
+			font-family: 'Montserrat';
+	}
+	.dcs-sc2{
+			background: #f4f4f4;
+			-webkit-clip-path: polygon(0 6%, 100% 0, 100% 100%, 0 96%);
+			clip-path: polygon(0 6%, 100% 0, 100% 100%, 0 96%);
+	} 
 
 
 
-/* CONTECT FORM */
+/* CONTAT FORM */
 
 
 .instagram-container{

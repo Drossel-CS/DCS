@@ -42,7 +42,7 @@
 			<i class="icon-behance"></i>
 		</div>
 		<div class="wrapp signature">
-			&copy<?php echo date(" Y "); bloginfo()?> spol. s.r.o. | Všetky práva vyhradené | Cookies
+			&copy<?php echo date(" Y "); bloginfo()?> studio spol. s.r.o. | Všetky práva vyhradené | Cookies
 		</div>
 	</footer><!-- #colophon -->
 	<div class="wrapp sig">DROSSEL | CREATIVE STUDIO</div>
