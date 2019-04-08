@@ -1100,13 +1100,12 @@ nav{
 	padding: 10px;
 }
 
-.current-menu-item, .current-page-ancestor{
-	/* border-bottom: 1px solid #43e8e4; */
-	display: block;
-	background-image: linear-gradient(to right, #43e8e4, #00FFB1);
+.current-page-item a, .current-page-ancestor a{
+	font-weight: 800;
 }
+
 .menu-primary-menu-container ul li a:hover{
-	border-bottom: 1px solid #43e8e4;
+	border-bottom: 1px solid #00FFB1; 
 }
 .shopping-bag, .site-header-burger{
 	display: none;
@@ -1135,7 +1134,6 @@ nav{
 	width: 80%;
 }
 	.sc1{
-			/* padding-top: 50px; */
 			background-image: url('../DCS/img/sc1bg.png'); 
 			background-position: left top;
 			background-repeat: no-repeat;
@@ -1145,6 +1143,22 @@ nav{
 			background-position: right top;
 			background-repeat: no-repeat;
 	}
+	.sc3{
+		background-image: url('../DCS/img/sc3bg.png'); 
+		background-position: left top;
+		background-repeat: no-repeat;
+	}
+	.sc4{
+		background-image: url('../DCS/img/sc4bg.png'); 
+		background-position: right top;
+		background-repeat: no-repeat;
+	}
+	.sc5{
+		background-image: url('../DCS/img/sc5bg.png'); 
+		background-position: left top;
+		background-repeat: no-repeat;
+	}
+
 	.dcs-content-container-left{
 			float: left;
 			width: 50%;
@@ -1181,6 +1195,9 @@ nav{
 			letter-spacing: 3px;
 			font-weight: 600;
 			font-family: 'Montserrat';
+	}
+	.dcs-button:hover{
+		background-image: linear-gradient(to right, #00FFB1, #43e8e4);
 	}
 	.dcs-sc2{
 			background: #f4f4f4;
