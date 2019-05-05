@@ -1034,7 +1034,10 @@ body{
 	color: #f4f4f4;
   }
 
-
+.wrapp-medium{
+	max-width: 800px;
+	margin: 0 auto;
+}
 .wrapp{
 	max-width: 1024px;
 	margin: 0 auto;
@@ -1111,18 +1114,29 @@ nav{
 	display: none;
 }
 
-
-/* CONTENT */
+/* ----------------------------- */
+/* ---------- CONTENT ---------- */
+/* ----------------------------- */
 .dcs-title{
 	padding-top: 90px;
 	font-size: 3em;
 	font-weight: 800;
 }
 
+.dcs-sc-title{
+	/* padding-top: 90px; */
+	font-size: 3em;
+	font-weight: 800;
+	padding: 20px 0;
+}
 
-/* ----------------------------- */
-/* ---------- CONTENT ---------- */
-/* ----------------------------- */
+.dcs-content{
+	line-height: 2;
+	text-indent: 10px;
+	margin-bottom: 20px;
+}
+
+
 
 .dcs-sc{
 	width: 100%;
@@ -1192,8 +1206,8 @@ nav{
 			display: block;
 			text-transform: uppercase;
 			padding: 14px 50px;
-			letter-spacing: 3px;
-			font-weight: 600;
+			/* letter-spacing: 3px; */
+			font-weight: 800;
 			font-family: 'Montserrat';
 	}
 	.dcs-button:hover{
@@ -1406,6 +1420,15 @@ nav{
 	width: 100%;
 }
 
-
+.dcs-content-container-right, .dcs-content-container-left{
+	float: none;
+	width: 100%;
+}
+.dcs-section-img{
+	display: none;
+}
+.dcs-button{
+	width: 100%;
+}
 
 }

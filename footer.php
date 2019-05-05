@@ -14,7 +14,9 @@
 	</div><!-- #content -->
 	<div class="newsletter-container">
 		<div class="heading-center wrapp">newsletter</div>
-		SEM IDE KURWA DOBRY NEWSLETTER
+		<div class="wrapp">
+		<?php echo do_shortcode( '[wpforms id="103" title="false" description="false"]' ); ?>
+		</div>
 	</div>
 	<!-- <div class="brand-container">
 		<div class="heading-center wrapp">spolupracujeme</div>
@@ -49,6 +51,9 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>
